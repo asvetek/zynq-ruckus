@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER cstm_AXI_IP
+	OPTION supported_peripherals = (cstm_AXI_IP);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = cstm_AXI_IP;
+END DRIVER
