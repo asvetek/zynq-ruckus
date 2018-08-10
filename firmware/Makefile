@@ -9,7 +9,7 @@ export PROJECT = base_zynq_wrapper
 # # Define target part
 export PRJ_PART = xc7z020clg400-1
 #
-# # # Define the Microblaze source path
+# # # Define software path
 export SDK_SRC_PATH = $(PROJ_DIR)/../software
 #
 #  # Using a non-standard target directory structure,
