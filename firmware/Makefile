@@ -10,8 +10,10 @@ export PROJECT = base_zynq_wrapper
 export PRJ_PART = xc7z020clg400-1
 #
 # # # Define software path
-export SDK_SRC_PATH = $(PROJ_DIR)/../software
-#
+export SDK_PATH = $(abspath $(PWD)/../software)
+
+export PARALLEL_SYNTH_CNT = 4
+
 #  # Using a non-standard target directory structure,
 # which requires me to define the TOP_DIR path
 export TOP_DIR = $(abspath $(PWD))
@@ -21,3 +23,7 @@ export XIL_IPI_REPO = $(abspath $(PWD)/xil_ipi_repo)
 #
 # # Use top level makefile
 include $(TOP_DIR)/submodules/ruckus/system_vivado.mk
+
+include $(TOP_DIR)/sdk_export.mk
+
+
