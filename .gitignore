@@ -6,4 +6,4 @@ software/SDK.log
 software/base_zynq_wrapper_hw_platform_0/
 software/fsbl_bsp/ps7_cortexa9_0/
 software/webtalk/
-images/*.bit
+firmware/images/*.bit
